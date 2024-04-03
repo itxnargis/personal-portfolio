@@ -10,11 +10,11 @@
   color: #fff;
 }
 .home-container {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 1rem;
-  text-align: center;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    /* text-align: center; */
+    align-items: center;
 }
 .heading {
   letter-spacing: 2px;
@@ -59,7 +59,7 @@
   font-size: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 847px) {
   .navbar ul li a {
     display: none;
   }
