@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
 }
 /* header section starts */
 .header {
@@ -10,19 +10,24 @@
   color: #fff;
 }
 .home-container {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 1rem;
-    /* text-align: center; */
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  /* text-align: center; */
+  align-items: center;
 }
 .heading {
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
 }
+
 .navbar {
   display: flex;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .navbar ul li {
   list-style: none;
@@ -33,7 +38,7 @@
 .navbar ul li a {
   text-decoration: none;
   color: #eee;
-  text-transform: uppercase;
+  letter-spacing: 2px;
   font-weight: bold;
   font-size: 1rem;
 }
