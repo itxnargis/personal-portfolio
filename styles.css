@@ -5,9 +5,12 @@
   font-family: sans-serif;
 }
 :root {
-  --blue: rgb(8, 8, 34);
+  --blue: rgb(6, 6, 20);
   --peach: rgb(211, 163, 101);
   --secondary: rgb(51, 83, 143);
+}
+main {
+  background-color: var(--blue);
 }
 /* header section starts */
 .header {
@@ -112,7 +115,7 @@
 }
 .about .about-container .self-image img {
   margin: 5rem;
-  box-shadow: 0 0 30px #e9a622;
+  box-shadow: 0 0 30px var(--secondary);
   border-radius: 100%;
   width: 330px;
 }
@@ -181,3 +184,70 @@
   }
 }
 /* about section ends */
+
+/* projects section starts */
+.project {
+  color: #fff;
+  padding: 5rem 0;
+}
+.project-container {
+  padding: 0 5rem;
+}
+.project-heading {
+  font-size: 3rem;
+  text-align: center;
+}
+.projects-display {
+  padding: 5rem 0;
+}
+.row {
+  display: flex;
+  gap: 1.7rem;
+}
+.project-item {
+  padding: 10px;
+  border-radius: 1rem;
+  height: 100%;
+  box-shadow: 0 0 10px 0 rgba(51, 83, 143, 0.5);
+}
+.project-image {
+  padding: 1rem;
+  text-align: center;
+}
+.project-image img {
+  height: 200px;
+  width: 200px;
+}
+.project-name h2 {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.project-about-content {
+  height: auto;
+  padding: 20px 10px;
+}
+.project-about-content p {
+  width: 90%;
+  margin: 0 auto;
+}
+.project-link {
+  bottom: 0;
+  position: relative;
+}
+.project-item-link {
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  width: 50%;
+  border-radius: 0.2rem;
+}
+.project-item-link a {
+  text-decoration: none;
+  color: #fff;
+}
+.demo {
+  background-color: #0d1d2c;
+}
+
+/* projects section ends */
