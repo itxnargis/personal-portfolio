@@ -11,6 +11,7 @@
 }
 main {
   background-color: var(--blue);
+  color: #fff;
 }
 /* header section starts */
 .header {
@@ -249,5 +250,60 @@ main {
 .demo {
   background-color: #0d1d2c;
 }
-
+@media screen and (max-width: 747px) {
+  .project-container {
+    padding: 0 2rem;
+  }
+}
 /* projects section ends */
+.education {
+  padding: 100px 0;
+}
+.education-container {
+  padding: 0 3rem;
+}
+.education-heading {
+  /* margin: 0 0 20px; */
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.education-row {
+  width: 70%;
+  margin: auto;
+}
+.education-content {
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(51, 83, 143, 0.5);
+  margin: 40px auto;
+  padding: 20px;
+}
+.education-logo {
+  flex: 0 0 auto;
+  padding: 0 5rem;
+}
+.content-logo {
+  text-align: center;
+}
+.content-logo img {
+  width: 170px;
+  border-radius: 0.2rem;
+}
+.education-detail {
+  padding: 10px;
+}
+.education-name {
+  font-size: 20px;
+  margin-bottom: 0.4rem;
+}
+.education-duration {
+  margin-bottom: 1rem;
+}
+.education-technology {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.education-course {
+  margin-bottom: 1rem;
+  font-size: 17px;
+}
