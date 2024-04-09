@@ -307,3 +307,15 @@ main {
   margin-bottom: 1rem;
   font-size: 17px;
 }
+@media screen and (max-width: 747px ) {
+  .education-row {
+    width: 90%;
+}
+.education-container {
+  padding: 0 1rem;
+}
+.education-detail {
+    text-align: center;
+}
+
+}
