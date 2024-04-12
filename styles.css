@@ -281,12 +281,15 @@ main {
 .education-logo {
   flex: 0 0 auto;
   padding: 0 5rem;
+  display: flex;
+  align-items: center;
 }
 .content-logo {
   text-align: center;
 }
 .content-logo img {
   width: 170px;
+  height: 150px;
   border-radius: 0.2rem;
 }
 .education-detail {
@@ -317,5 +320,35 @@ main {
 .education-detail {
     text-align: center;
 }
+}
+/* education section ends */
+
+/* contact section starts */
+.contact {
+  padding: 100px 0;
+  text-align: center;
+}
+.contact-container {
+  padding: 0 3rem;
+}
+.contact-heading {
+  margin-bottom: 5rem;
+  font-size: 30px;
+}
+.container-box {
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(51, 83, 143, 0.5);
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 4rem 0;
+}
+.form-group {
+
+}
+.form-info {
+
+}
+.contact-forms {
 
 }
