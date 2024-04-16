@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nargis Khatun | Frontend Developer</title>
+        <title>Nargis Khatun | Web Developer</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,26 +13,40 @@
     <body>
         <main>
             <!-- header section starts -->
-            <header class="header">
-                <div class="home-container">
-                    <h1 class="heading">Nargis</h1>
-                    <nav class="navbar">
-                        <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                        <i class="fa fa-bars"></i>
-                    </nav>
+            <nav>
+                <div class="nav-center">
+                    <!-- nav header -->
+                    <!-- nav header -->
+                    <div class="nav-header">
+                        <h1 class="heading">Nargis Khatun</h1>
+                        <button class="nav-toggle">
+                            <i class="fa fa-bars" id="menu-icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- links -->
+                    <ul class="links">
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </header>
+            </nav>
+
             <!-- header section ends -->
 
             <!-- about section starts -->
 
-            <section class="about">
+            <section class="about" id="about">
                 <div class="about-container">
                     <div class="row">
                         <div class="about-info">
@@ -43,7 +57,7 @@
                                 Nargis Khatun
                             </h1>
                             <h3 class="bio">
-                                And I'm a <span>FRONTEND DEVELOPER </span>
+                                And I'm a <span>WEB DEVELOPER </span>
                             </h3>
                             <p class="about-content">Aspiring frontend developer with expertise in HTML, CSS,
                                 JavaScript, Tailwind CSS, React and
@@ -88,55 +102,61 @@
             <!-- about section ends -->
 
             <!-- projects section starts -->
-            <section class="project">
+            <section class="project" id="projects">
                 <div class="project-container">
                     <h2 class="project-heading">Projects</h2>
                     <div class="projects-display">
                         <div class="row">
                             <div class="project-item">
                                 <div class="project-image">
-                                    <img src="images/hbse-logo.jpg" alt="">
+                                    <img src="images/resto-restaurant.jpg" alt="github-finder-image">
                                 </div>
                                 <div class="project-about">
                                     <div class="project-name">
-                                        <h2>Github finder</h2>
+                                        <h2>Resto Restaurant</h2>
                                     </div>
                                     <div class="project-about-content">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aperiam
-                                            ducimus dolores natus praesentium ab quisquam voluptas rerum dicta
-                                            pariatur, iure quam officia? Aspernatur eius accusantium, quam error
-                                            eligendi nesciunt?</p>
+                                        <p> Demo website fro restaurant.Explore delicious flavors at Delicious Bites!
+                                            Our menu has
+                                            something for everyone. Enjoy a cozy atmosphere for dinners or gatherings.
+                                            Join us for a
+                                            taste adventure!
+                                        </p>
                                     </div>
                                     <div class="project-link">
                                         <div class="project-item-link demo">
-                                            <a href="#">Live Demo</a>
+                                            <a href="https://itxnargis.github.io/resto-restaurant/">Live Demo <i
+                                                    class="fa fa-external-link"></i>
+                                            </a>
                                         </div>
-                                        <div class="project-item-link code">
-                                            <a href="#">Source Code</a>
+                                        <div class="project-item-link demo">
+                                            <a href="https://github.com/itxnargis/resto-restaurant"
+                                                title="See my code on Github">Source Code <i class="fa fa-github"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="project-item">
                                 <div class="project-image">
-                                    <img src="images/hbse-logo.jpg" alt="">
+                                    <img src="images/lakshadweep-tours.jpg" alt="">
                                 </div>
                                 <div class="project-about">
                                     <div class="project-name">
                                         <h2>Github finder</h2>
                                     </div>
                                     <div class="project-about-content">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aperiam
-                                            ducimus dolores natus praesentium ab quisquam voluptas rerum dicta
-                                            pariatur, iure quam officia? Aspernatur eius accusantium, quam error
-                                            eligendi nesciunt?</p>
+                                        <p>Explore the breathtaking beauty of Lakshadweep with the Lakshadweep Tours website. It is designed to offer a seamless and informative experience for travelers interested in discovering the wonders of Lakshadweep.</p>
                                     </div>
                                     <div class="project-link">
                                         <div class="project-item-link demo">
-                                            <a href="#">Live Demo</a>
+                                            <a href="https://itxnargis.github.io/resto-restaurant/">Live Demo <i
+                                                    class="fa fa-external-link"></i></a>
                                         </div>
-                                        <div class="project-item-link code">
-                                            <a href="#">Source Code</a>
+                                        <div class="project-item-link demo">
+                                            <a href="https://github.com/itxnargis/resto-restaurant"
+                                                title="See my code on Github">Source Code <i
+                                                    class="fa fa-github"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +168,7 @@
             <!-- projects section ends -->
 
             <!-- education section starts -->
-            <section class="education">
+            <section class="education" id="education">
                 <div class="education-container">
                     <div class="education-heading">
                         <h2>Education</h2>
@@ -211,51 +231,77 @@
             <!-- education section ends -->
 
             <!-- contact section starts -->
-            <section class="contact">
-                <div class="contact-container">
-                    <div class="contact-heading">
-                        <h2>Contact Me</h2>
-                    </div>
-                    <div class="container-box">
-                    <div class="form-group">
-                        <form action="#">
-                            <div class="form-info">
-                                <div class="contact-forms">
-                                    <label>Full Name</label>
-                                    <input type="text" placeholder="Name* " required>
-                                </div>
-                            </div>
-
-                            <div class="form-info">
-                                <div class="contact-forms">
-                                    <label>Full Name</label>
-                                    <input type="text" placeholder="Name* " required>
-                                </div>
-                            </div>
-
-                            <div class="form-info">
-                                <div class="contact-forms">
-                                    <label>Full Name</label>
-                                    <input type="text" placeholder="Name* " required>
-                                </div>
-                            </div>
-
-                            <div class="form-info">
-                                <div class="contact-forms">
-                                    <label>Full Name</label>
-                                    <input type="text" placeholder="Name* " required>
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
+            <section class="contact" id="contact">
+                <div class="contact-heading">
+                    <h2>Contact Me</h2>
                 </div>
+                <div class="container-box">
+                    <form action="#">
+                        <div class="form-info">
+                            <div class="contact-forms">
+                                <label>Full Name</label>
+                                <input class="input-width" type="text" placeholder="Name* " required>
+                            </div>
+                        </div>
 
+                        <div class="form-info display">
+                            <div class="contact-forms">
+                                <label>Email</label>
+                                <input class="input-width" type="text" placeholder="Email Address* " required>
+                            </div>
+                        </div>
+
+                        <div class="form-info">
+                            <div class="contact-forms">
+                                <label>Subject</label>
+                                <input type="text" placeholder="Subject* " required>
+                            </div>
+                        </div>
+
+                        <div class="form-info">
+                            <div class="contact-forms">
+                                <label>Your Message</label>
+                                <textarea name="text" id="" cols="30" rows="10" placeholder="Message">
+                                    </textarea>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
                 </div>
 
             </section>
             <!-- contact section ends -->
+
+            <!-- footer section starts -->
+            <footer>
+                <div class="footer-icons">
+                    <div class="social-icons">
+                        <a href="https://github.com/itxnargis" title="Connect to github"
+                            aria-label="Github-icon" id="iconLink"> <i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="mailto:itxnargiskhatun@gmail.com" title="My gmail account"
+                            aria-label="Gmail-icon" id="iconLink"> <i class="fa fa-envelope"></i></a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://x.com/81283nargis?s=09" title="My personal twitter account"
+                            aria-label="Twitter-icon" id="iconLink"> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nargis-khatun-4008ab2a9/"
+                            title="My linkedin account" aria-label="Linkedin-icon" id="iconLink"> <i
+                                class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy 2024 Nargis Khatun <i class="fa fa-heart"></i></p>
+                </div>
+            </footer>
+            <!-- footer section ends -->
         </main>
+        <script src="app.js"></script>
     </body>
 
 </html>
