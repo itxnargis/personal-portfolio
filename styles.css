@@ -238,7 +238,8 @@ a {
   /* background: cadetblue; */
   border-radius: 1rem;
   height: 100%;
-  box-shadow: 0 0 10px 0 rgba(43, 63, 105, 0.5);
+  border: 2px solid cadetblue;
+  /* box-shadow: 0 0 10px 0 rgba(43, 63, 105, 0.5); */
 }
 
 .project-image {
@@ -247,7 +248,7 @@ a {
 .project-image img {
   height: 300px;
   width: 100%;
-  border-radius: 0.4rem;
+  border-radius: 0.7rem;
 }
 .project-name h2 {
   padding: 10px;
