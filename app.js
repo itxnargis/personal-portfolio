@@ -2,7 +2,6 @@
 const navToggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('.links');
 const menuIcon = document.getElementById('menu-icon');
-const closeIcon = document.getElementById('close-icon');
 
 
 navToggle.addEventListener('click', function () {
