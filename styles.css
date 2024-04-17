@@ -60,7 +60,7 @@ a {
   letter-spacing: var(--spacing);
 }
 .links a {
-  color: var(--grey);
+  color: #fff;
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -149,7 +149,7 @@ a {
   width: 330px;
 }
 .bio span {
-  color: var(--secondary);
+  color: var(--clr-primary-5);
   letter-spacing: 2px;
 }
 .about-content {
@@ -168,8 +168,8 @@ a {
 }
 .social-icons a i {
   font-size: 1rem;
-  color: var(--secondary);
-  border: 1px solid var(--secondary);
+  color: var(--clr-primary-5);
+  border: 1px solid var(--clr-primary-5);
   border-radius: 50%;
   padding: 0.4rem;
   margin-top: 0.7rem;
@@ -186,9 +186,10 @@ a {
   padding: 0.5rem 1.5rem;
   letter-spacing: 0.2em;
   font-size: 0.9rem;
-  background: var(--secondary);
-  border: 1px solid #fff;
+  background: #275c82;
+  /* border: 1px solid #fff; */
   color: var(--white);
+  font-weight: bold;
   cursor: pointer;
   text-decoration: none;
 }
@@ -238,7 +239,7 @@ a {
   /* background: cadetblue; */
   border-radius: 1rem;
   height: 100%;
-  border: 2px solid cadetblue;
+  border: 2px solid #196265;
   /* box-shadow: 0 0 10px 0 rgba(43, 63, 105, 0.5); */
 }
 
@@ -248,7 +249,7 @@ a {
 .project-image img {
   height: 300px;
   width: 100%;
-  border-radius: 0.7rem;
+  border-radius: 0.7rem 0.7rem 0 0;
 }
 .project-name h2 {
   padding: 10px;
@@ -267,6 +268,7 @@ a {
   margin: 0 1rem;
   display: flex;
   margin-top: 0.4rem;
+  gap: 1rem;
   align-items: center;
 }
 .project-item-link {
@@ -275,14 +277,14 @@ a {
   text-align: center;
   border: 2px solid #eee;
   margin-bottom: 1.3rem;
-  width: 40%;
+  width: 50%;
   border-radius: 5rem;
   font-size: 0.9rem;
 }
 .project-item-link a {
   text-decoration: none;
   color: #fff;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.04rem;
 }
 @media screen and (max-width: 747px) {
   .project-container {
@@ -306,7 +308,7 @@ a {
 }
 .education-content {
   border-radius: 10px;
-  background: cadetblue;
+  background: #196265;
   margin: 40px auto;
   padding: 20px;
 }
@@ -325,19 +327,19 @@ a {
   border-radius: 0.2rem;
 }
 .education-detail {
-  color: rgb(22 22 58);
+  color: #fff;
   padding: 10px;
   letter-spacing: 0.1rem;
 }
 .education-name {
-  font-size: 20px;
+  /* font-size: 20px; */
   margin-bottom: 0.4rem;
 }
 .education-duration {
   margin-bottom: 1rem;
 }
 .education-technology {
-  font-size: 18px;
+  /* font-size: 18px; */
   margin-bottom: 1rem;
 }
 .education-course {
@@ -368,7 +370,7 @@ a {
 }
 .container-box {
   border-radius: 10px;
-  background: cadetblue;
+  background: #196265;
   width: 90vw;
   margin: auto;
   padding: 2rem;
@@ -391,7 +393,8 @@ form {
   width: 100%;
 }
 label {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
   letter-spacing: 0.06rem;
 }
 input {
@@ -406,6 +409,7 @@ input {
 }
 textarea {
   width: 100%;
+  padding: 0.7rem;
   border-radius: 8px;
   border: 2px solid rgb(51, 83, 143);
 }
@@ -415,6 +419,19 @@ textarea {
   .form-info:nth-child(2) {
     width: calc(50% - 0.5rem);
   }
+}
+.contact-button {
+  margin-top: 1rem;
+  border-radius: 5rem;
+  padding: 0.5rem 1.5rem;
+  letter-spacing: 0.2em;
+  font-size: 0.9rem;
+  background: #275c82;
+  border: 1px solid #fff;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /* footer section starts */
