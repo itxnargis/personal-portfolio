@@ -305,6 +305,7 @@ a {
   margin: auto;
 }
 .education-content {
+  text-align: center;
   border-radius: 10px;
   background: #196265;
   margin: 40px auto;
@@ -314,6 +315,7 @@ a {
   flex: 0 0 auto;
   padding: 0 5rem;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .content-logo {
