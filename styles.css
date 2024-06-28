@@ -235,8 +235,10 @@ a {
   padding: 3rem 0;
 }
 .row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.7rem;
+  align-items: center;
 }
 .project-item {
   /* background: cadetblue; */
