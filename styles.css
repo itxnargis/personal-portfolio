@@ -285,6 +285,9 @@ a {
   .project-container {
     padding: 0 2rem;
   }
+  .row {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  }
 }
 
 .education {
