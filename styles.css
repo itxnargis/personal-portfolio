@@ -23,7 +23,6 @@ main {
   background-color: var(--blue);
   color: #fff;
 }
-/* navbar section starts */
 nav {
   background: rgb(49, 48, 48);
   box-shadow: 0 0 15px rgba(68, 65, 65, 0.2);
@@ -43,7 +42,6 @@ ul {
 a {
   text-decoration: none;
 }
-
 .fa-times {
   display: none;
 }
@@ -111,9 +109,6 @@ a {
   }
 }
 
-/* nav section ends */
-
-/* about section starts */
 .about {
   min-height: 100vh;
   padding-top: 15vh;
@@ -187,7 +182,6 @@ a {
   letter-spacing: 0.2em;
   font-size: 0.9rem;
   background: #275c82;
-  /* border: 1px solid #fff; */
   color: var(--white);
   font-weight: bold;
   cursor: pointer;
@@ -217,9 +211,7 @@ a {
     margin-bottom: 1.2rem;
   }
 }
-/* about section ends */
 
-/* projects section starts */
 .project {
   color: #fff;
   padding: 5rem 0;
@@ -241,13 +233,10 @@ a {
   align-items: center;
 }
 .project-item {
-  /* background: cadetblue; */
   border-radius: 1rem;
   height: 100%;
   border: 2px solid #196265;
-  /* box-shadow: 0 0 10px 0 rgba(43, 63, 105, 0.5); */
 }
-
 .project-image {
   text-align: center;
 }
@@ -297,7 +286,7 @@ a {
     padding: 0 2rem;
   }
 }
-/* projects section ends */
+
 .education {
   padding: 100px 0;
 }
@@ -338,14 +327,12 @@ a {
   letter-spacing: 0.1rem;
 }
 .education-name {
-  /* font-size: 20px; */
   margin-bottom: 0.4rem;
 }
 .education-duration {
   margin-bottom: 1rem;
 }
 .education-technology {
-  /* font-size: 18px; */
   margin-bottom: 1rem;
 }
 .education-course {
@@ -363,9 +350,7 @@ a {
     text-align: center;
   }
 }
-/* education section ends */
 
-/* contact section starts */
 .contact {
   padding: 100px 0;
 }
@@ -440,7 +425,6 @@ textarea {
   text-decoration: none;
 }
 
-/* footer section starts */
 footer {
   background: rgb(49, 48, 48);
   display: flex;
